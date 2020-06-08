@@ -10,9 +10,9 @@ library(markdown)
 
 
 db <- dbConnect(MariaDB(),
-                     user='dbjerrel',
-                     password='doraemon',
-                     dbname='dbjerrel',
+                     user='any',
+                     password='any',
+                     dbname='any',
                      host='www.db4free.net')
 
 complete <- dbGetQuery(db, 'SELECT* from complete')
